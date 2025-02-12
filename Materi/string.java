@@ -1,5 +1,4 @@
 package Materi;
-import java.util.*;
 
 public class string{
     Integer y = 9;
@@ -11,7 +10,7 @@ public class string{
     public string(){
         y = Integer.parseInt("1000");
         System.out.println(y);
-        System.out.println(x.MAX_VALUE);
+        // System.out.println(x.MAX_VALUE);
 
         System.out.println("");
         
