@@ -1,4 +1,4 @@
-package Asg_5;
+package Asg_4;
 
 public abstract class Mob implements IAttack, IDamageable{
     String nama;
@@ -35,7 +35,6 @@ public abstract class Mob implements IAttack, IDamageable{
 
     @Override
     public void attack(IDamageable damageable) {
-        // TODO Auto-generated method stub
         int damage = damageable.takeDamage(attack, ((Enemy) damageable).getDef());
         System.out.println(this.nama + " attacking " + ((Enemy) damageable).getNama());
         System.out.println(((Enemy) damageable).getNama() + " is taking damage for " + damage + " point(s)");

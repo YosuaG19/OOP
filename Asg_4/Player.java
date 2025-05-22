@@ -1,4 +1,4 @@
-package Asg_5;
+package Asg_4;
 
 public class Player extends Mob{
     public Player(String nama, HP hp, int attack, int def){

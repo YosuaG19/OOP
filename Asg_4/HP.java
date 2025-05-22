@@ -1,4 +1,4 @@
-package Asg_5;
+package Asg_4;
 
 public class HP {
     int point;
